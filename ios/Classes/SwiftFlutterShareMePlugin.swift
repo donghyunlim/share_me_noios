@@ -187,7 +187,7 @@ public class SwiftFlutterShareMePlugin: NSObject, FlutterPlugin {
     // share twitter params
     // @ message
     // @ url
-    func shareTwitter(message:String,url:String, result: @escaping FlutterResult)  {s22
+    func shareTwitter(message:String,url:String, result: @escaping FlutterResult)  {
         let urlstring = url
         let twitterUrl =  "twitter://post?message=\(message)"
         
